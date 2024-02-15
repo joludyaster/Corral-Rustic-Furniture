@@ -308,7 +308,7 @@ body {
   max-width: 1920px;
   min-height: 591px;
   margin: 0 auto;
-  background-image: url("/pictures/other/background-image.png");
+  background-image: url("../pictures/other/background-image.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;

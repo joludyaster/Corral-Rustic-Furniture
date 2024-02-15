@@ -1,0 +1,139 @@
+.footer-section{
+    padding: 200px 0 0 0;
+
+    &__footer{
+        width: 100%;
+        background-color: var(--golden-brown-color);
+    }
+
+    &__footer.main-footer{
+        padding: 40px 0;
+        background-color: transparent;
+    }
+
+    &__footer.top-footer{
+        height: 50px;
+    }
+
+    &__bottom-footer-content-wrapper{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+    }
+
+    &__footer.bottom-footer{
+        padding: 15px 0;
+    }
+
+    &__bottom-footer-content-wrapper .footer-text, &__bottom-footer-content-wrapper .footer-text a{
+        color: var(--white-color);
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    &__bottom-footer-content-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__navigation-link a{
+        transition: all 0.4s ease;
+    }
+
+    &__company-links-wrapper{
+        vertical-align: text-top;
+    }
+
+    &__navigation-link a:hover{
+        color: #5882F6;
+    }
+
+    &__logo-wrapper{
+        margin-bottom: 15px;
+    }
+
+    &__logo-wrapper img{
+        height: 155px;
+        width: 155px;
+    }
+
+    &__social-media-link i{
+        padding: 10px;
+        color: var(--white-color);
+        font-size: 30px;
+        background-color: var(--black-color);
+        border: 1px solid transparent;
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        cursor: pointer;
+    }
+
+    &__social-media-link i:hover{
+        color: var(--black-color);
+        background-color: transparent;
+        border: 1px solid var(--golden-brown-color);
+    }
+
+    &__social-medias-wrapper{
+        display: flex;
+        text-align: left;
+        gap: 10px;
+    }
+
+    &__links-wrapper{
+        display: flex;
+        margin-bottom: 70px;
+        justify-content: space-between;
+    }
+
+    &__website-links-wrapper{
+        display: flex;
+        gap: 150px;
+    }
+
+    &__links-title{
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    &__company-links-title, &__keep-in-touch-links-title{
+        font-weight: 600;
+    }
+
+    &__company-link a, &__keep-in-touch-link{
+        color: var(--jet-color);
+        font-weight: 400;
+        transition: all 0.4s ease;
+    }
+
+    &__company-link a:hover{
+        color: #5882F6;
+    }
+
+    &__keep-in-touch-links, &__company-links-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__keep-in-touch-link{
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    &__keep-in-touch-link.address{
+        width: 50%;
+    }
+
+    &__company-links-title-wrapper, &__keep-in-touch-links-title-wrapper{
+        margin-bottom: 20px;
+    }
+    // &__keep-in-touch-links{
+    //     display: flex;
+    //     flex-direction: column;
+    //     row-gap: 20px;
+    // }
+}

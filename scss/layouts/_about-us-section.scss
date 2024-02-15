@@ -1,0 +1,51 @@
+.about-us-section{
+    padding: 200px 0 0 0;
+
+    &__main-title-wrapper{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    &__main-title{
+        font-size: 50px;
+        font-weight: normal;
+    }
+
+    &__main-title-span{
+        font-weight: bold;
+    }
+
+    &__photo-and-description-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    &__left-description-first-part, &__right-description-first-part{
+        margin-bottom: 20px;
+    }
+
+    &__left-description-wrapper, &__right-description-wrapper{
+        width: 20%;
+    }
+
+    &__image-wrapper{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__image{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .about-us-description{
+        font-size: 20px;
+        font-weight: normal;
+    }
+}

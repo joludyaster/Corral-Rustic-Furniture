@@ -1,0 +1,145 @@
+.creations-section{
+
+    padding: 200px 0 0 0;
+
+    &__text-wrapper{
+        text-align: center;
+    }
+    
+    &__main-title{
+        margin-bottom: 5px;
+        font-size: 50px;
+        font-weight: normal;
+    }
+
+    &__main-description{
+        margin: 0 0 50px 0;
+        font-size: 20px;
+        font-weight: normal;
+
+    }
+
+    &__card-image-wrapper{
+        left: 0;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__card-image-wrapper img{
+        height: 100%;
+        width: 100%;
+        transition: all 0.4s ease;
+    }
+
+    &__ul-wrapper{
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    &__cards-container{
+        display: flex;
+        padding-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    &__cards-list{
+        padding: 0;
+    }
+
+    &__card-link-container{
+        display: flex; /* Ensure the link container takes full height */
+        overflow: hidden;
+        position: relative;
+        height: 325px;
+        padding: 20px;
+        border-radius: 15px;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    }
+
+    &__card-link-container:hover .creations-section__card-image-wrapper img{
+        transform: scale(1.05);
+    }
+
+    &__card-title{
+        margin-bottom: 10px;
+        color: var(--white-color);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    &__card-description{
+        color: var(--white-color);
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    &__pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .carousel-button{
+        display: flex;
+        height: 44px;
+        width: 44px;
+        padding: 0;
+        background-color: transparent;
+        border: 1px solid var(--golden-brown-color);
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+    }
+
+    .carousel-button i{
+        font-size: 20px;
+    }
+    
+    .carousel-button:hover{
+        background-color: var(--black-color);
+        border: 1px solid transparent;
+    }
+    
+    .carousel-button:hover i{
+        color: var(--white-color);
+    }
+    
+    .swiper-pagination-bullet{
+        height: 11px;
+        width: 11px;
+        background-color: transparent;
+        border: 1px solid var(--golden-brown-color);
+        transition: all 0.4s ease;
+        opacity: 1;
+    }
+    
+    .swiper-pagination-bullet-active{
+        background-color: var(--golden-brown-color);
+    }
+    
+    @media screen and (max-width: 480px) {
+        .carousel-button{
+            display: none;
+        }
+    }
+    
+    
+}
+
+
